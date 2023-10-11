@@ -1,0 +1,6 @@
+distlib==0.3.7
+filelock==3.12.3
+platformdirs==3.10.0
+Django==4.2.6
+sqlparse==0.4.4
+Pillow==8.4.0
