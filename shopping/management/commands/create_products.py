@@ -9,7 +9,6 @@ class Command(BaseCommand):
     help = 'Populate the Products and Choice models with initial data'
 
     def handle(self, *args, **kwargs):
-
         """
         Handle the command execution.
 
@@ -49,7 +48,7 @@ class Command(BaseCommand):
             image='products/glasses.jpg',
         )
 
-        product5 = Products.objects.create(
+        product5 = Products.objects create(
             question_text='The Hat',
             price=200.00,
             image='products/hat.jpg',
@@ -91,14 +90,17 @@ class Command(BaseCommand):
             question=product3,
             choice_text='V&A Waterfront',
         )
+
         Choice.objects.create(
             question=product3,
             choice_text='Century City',
         )
+
         Choice.objects.create(
             question=product4,
             choice_text='V&A Waterfront',
         )
+
         Choice.objects.create(
             question=product4,
             choice_text='Century City',

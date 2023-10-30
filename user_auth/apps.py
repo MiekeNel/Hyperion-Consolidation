@@ -1,10 +1,10 @@
 from django.apps import AppConfig
 
-class PollsConfig(AppConfig):
+class UserAuthConfig(AppConfig):
     """
-    AppConfig class for the 'shopping' app.
+    AppConfig class for the 'user_auth' app.
 
-    This class represents the configuration for the 'shopping' app. It defines app-specific settings
+    This class represents the configuration for the 'user_auth' app. It defines app-specific settings
     and configurations, such as the default auto field and the app's name.
 
     Attributes:
@@ -12,4 +12,4 @@ class PollsConfig(AppConfig):
         name (str): The name of the app.
     """
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'shopping'
+    name = 'user_auth'
